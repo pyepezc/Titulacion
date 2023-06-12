@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Titulacion" company="" webLink="http://" view-date="2023-05-01" view-index="0" gantt-divider-location="401" resource-divider-location="300" version="3.2.3230" locale="en_US">
+    <description>
+        <![CDATA[Titulacion Andrea Yepez]]>
+    </description>
+    <view zooming-state="default:10" id="gantt-chart">
+        <field id="tpd6" name="Duration" width="48" order="0"/>
+        <field id="tpd3" name="Name" width="193" order="1"/>
+        <field id="tpd4" name="Begin date" width="72" order="2"/>
+        <field id="tpd5" name="End date" width="72" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Introducción pastilla" color="#8cb6ce" meeting="false" start="2023-06-12" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="Doc leyendo" color="#000000" meeting="true" start="2023-06-13" duration="0" complete="0" thirdDate="2023-06-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="3" name="suena el teléfono" color="#000000" meeting="true" start="2023-06-13" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="secretaria" color="#8cb6ce" meeting="false" start="2023-06-13" duration="1" complete="0" thirdDate="2023-06-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="5" name="doc contesta" color="#000000" meeting="true" start="2023-06-14" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="6" name="Perilla de la puerta" color="#8cb6ce" meeting="false" start="2023-06-14" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="7" name="entra la paciente" color="#000000" meeting="true" start="2023-06-15" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="8" name="bichos 1" color="#000000" meeting="true" start="2023-06-15" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="9" name="gira la cabeza" color="#8cb6ce" meeting="false" start="2023-06-15" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="10" name="bichos 2" color="#8cb6ce" meeting="false" start="2023-06-16" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="11" name="bichos 3" color="#000000" meeting="true" start="2023-06-17" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="12" name="Doc la despierta" color="#8cb6ce" meeting="false" start="2023-06-17" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="13" name="Puede sentarse" color="#000000" meeting="true" start="2023-06-18" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="14" name="Camina a sentarse" color="#000000" meeting="true" start="2023-06-18" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="15" name="En que puedo ayudarle" color="#000000" meeting="true" start="2023-06-18" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="16" name="veo gente muerta" color="#8cb6ce" meeting="false" start="2023-06-18" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="17" name="Doc asiente" color="#000000" meeting="true" start="2023-06-19" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="18" name="Suena el celular" color="#000000" meeting="true" start="2023-06-19" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="19" name="Espere un momento" color="#000000" meeting="true" start="2023-06-19" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="20" name="ahh..ok?" color="#000000" meeting="true" start="2023-06-19" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="21" name="bichos 4" color="#000000" meeting="true" start="2023-06-19" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="22" name="Paciente se asusta" color="#8cb6ce" meeting="false" start="2023-06-19" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="23" name="Shhht" color="#000000" meeting="true" start="2023-06-20" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="24" name="un momento" color="#000000" meeting="true" start="2023-06-20" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="25" name="Salen dos bichos" color="#000000" meeting="true" start="2023-06-20" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="26" name="Perorata del Doc" color="#000000" meeting="true" start="2023-06-20" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="27" name="Paciente escucha" color="#000000" meeting="true" start="2023-06-20" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="28" name="Perorata del Doc 2" color="#000000" meeting="true" start="2023-06-20" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="29" name="Cajón de pastillas" color="#8cb6ce" meeting="false" start="2023-06-20" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="30" name="Que?" color="#000000" meeting="true" start="2023-06-21" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="31" name="Paciente insiste1" color="#8cb6ce" meeting="false" start="2023-06-21" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="32" name="Paciente insiste2" color="#8cb6ce" meeting="false" start="2023-06-22" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="33" name="Paciente insiste3" color="#8cb6ce" meeting="false" start="2023-06-23" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="34" name="Mini bicho" color="#8cb6ce" meeting="false" start="2023-06-24" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="35" name="Paciente se interrumpe" color="#8cb6ce" meeting="false" start="2023-06-25" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="36" name="bicho grande" color="#8cb6ce" meeting="false" start="2023-06-26" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="37" name="paciente retrocede" color="#8cb6ce" meeting="false" start="2023-06-27" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="38" name="Advertencia" color="#8cb6ce" meeting="false" start="2023-06-28" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="39" name="no hace caso" color="#8cb6ce" meeting="false" start="2023-06-29" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="40" name="paciente esta nerviosa" color="#8cb6ce" meeting="false" start="2023-06-30" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="41" name="bicho saca un brazo" color="#8cb6ce" meeting="false" start="2023-07-01" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="42" name="plano garra" color="#8cb6ce" meeting="false" start="2023-07-02" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="43" name="plano ojos paciente" color="#8cb6ce" meeting="false" start="2023-07-03" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="44" name="paciente al rescate" color="#8cb6ce" meeting="false" start="2023-07-04" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="45" name="caen al piso" color="#8cb6ce" meeting="false" start="2023-07-05" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="46" name="Doc se levanta 1" color="#000000" meeting="true" start="2023-07-06" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="47" name="Recoge sus lentes" color="#000000" meeting="true" start="2023-07-06" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="48" name="Doc se levanta 2" color="#000000" meeting="true" start="2023-07-06" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="49" name="plano ojos doc" color="#8cb6ce" meeting="false" start="2023-07-06" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="50" name="Paneo bicho" color="#8cb6ce" meeting="false" start="2023-07-07" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="51" name="Gritan" color="#8cb6ce" meeting="false" start="2023-07-08" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="52" name="Se levantan" color="#8cb6ce" meeting="false" start="2023-07-09" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="53" name="Corren" color="#000000" meeting="true" start="2023-07-10" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="54" name="Pasillo 1" color="#8cb6ce" meeting="false" start="2023-07-10" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="55" name="viene el bicho" color="#8cb6ce" meeting="false" start="2023-07-11" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="56" name="Persecución" color="#8cb6ce" meeting="false" start="2023-07-12" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="57" name="Persecución a" color="#8cb6ce" meeting="false" start="2023-07-13" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="58" name="pasillo 2" color="#8cb6ce" meeting="false" start="2023-07-14" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="59" name="Persecución b" color="#8cb6ce" meeting="false" start="2023-07-15" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="60" name="Persecución c" color="#8cb6ce" meeting="false" start="2023-07-16" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="61" name="pasillo 3" color="#8cb6ce" meeting="false" start="2023-07-17" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="62" name="Sala de espera" color="#8cb6ce" meeting="false" start="2023-07-18" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="63" name="caen 2" color="#8cb6ce" meeting="false" start="2023-07-19" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="64" name="Jadeo" color="#8cb6ce" meeting="false" start="2023-07-20" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="65" name="Pacientes1" color="#8cb6ce" meeting="false" start="2023-07-21" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="66" name="Loquitos" color="#8cb6ce" meeting="false" start="2023-07-22" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="67" name="Pacientes2" color="#8cb6ce" meeting="false" start="2023-07-23" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="68" name="Silencio incomodo1" color="#8cb6ce" meeting="false" start="2023-07-24" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="69" name="Silencio incomodo2" color="#8cb6ce" meeting="false" start="2023-07-25" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="70" name="Consultorio" color="#8cb6ce" meeting="false" start="2023-07-26" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="71" name="regreso al consultorio" color="#8cb6ce" meeting="false" start="2023-07-27" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="72" name="Dialogo paciente1" color="#8cb6ce" meeting="false" start="2023-07-28" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="73" name="Dialogo paciente2" color="#8cb6ce" meeting="false" start="2023-07-29" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="74" name="Se hace el loco" color="#8cb6ce" meeting="false" start="2023-07-30" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="75" name="puff" color="#8cb6ce" meeting="false" start="2023-07-31" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="76" name="No pasó nada" color="#8cb6ce" meeting="false" start="2023-08-01" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="77" name="Pastillas" color="#8cb6ce" meeting="false" start="2023-08-02" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="78" name="plano de los dos1" color="#8cb6ce" meeting="false" start="2023-08-03" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="79" name="bicho pastillas" color="#8cb6ce" meeting="false" start="2023-08-04" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+        <task id="80" name="plano de los dos2" color="#8cb6ce" meeting="false" start="2023-08-05" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
