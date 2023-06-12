@@ -6,6 +6,11 @@
     <dwg name="1"/>
     <dwg name="2"/>
     <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
    </drawings>
   </element>
   <element id="2" elementName="es1" elementFolder="es1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -65,8 +70,13 @@
   <scene name="Top" id="0bb33cd2ae300f7e" nbframes="60" startFrame="1" stopFrame="60">
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
-     <elementSeq exposures="6" val="3" id="1"/>
-     <elementSeq exposures="8" val="1" id="1"/>
+     <elementSeq exposures="1" val="7" id="1"/>
+     <elementSeq exposures="2" val="8" id="1"/>
+     <elementSeq exposures="3" val="6" id="1"/>
+     <elementSeq exposures="4" val="5" id="1"/>
+     <elementSeq exposures="5" val="4" id="1"/>
+     <elementSeq exposures="6,7" val="3" id="1"/>
+     <elementSeq exposures="8,9" val="1" id="1"/>
     </column>
     <column type="0" name="ATV-0BB33CD2AE30167C" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
