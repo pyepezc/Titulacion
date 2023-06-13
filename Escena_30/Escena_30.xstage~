@@ -18,6 +18,9 @@
     <dwg name="13"/>
     <dwg name="14"/>
     <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
    </drawings>
   </element>
   <element id="2" elementName="es1" elementFolder="es1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -91,6 +94,9 @@
      <elementSeq exposures="14" val="13" id="1"/>
      <elementSeq exposures="15" val="14" id="1"/>
      <elementSeq exposures="16" val="15" id="1"/>
+     <elementSeq exposures="17" val="16" id="1"/>
+     <elementSeq exposures="18" val="17" id="1"/>
+     <elementSeq exposures="19" val="18" id="1"/>
     </column>
     <column type="0" name="ATV-0BB33CD2AE30167C" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
