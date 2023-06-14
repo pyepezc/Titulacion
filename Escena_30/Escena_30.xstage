@@ -29,6 +29,13 @@
     <dwg name="24"/>
     <dwg name="25"/>
     <dwg name="26"/>
+    <dwg name="27"/>
+    <dwg name="28"/>
+    <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
+    <dwg name="32"/>
+    <dwg name="33"/>
    </drawings>
   </element>
   <element id="2" elementName="es1" elementFolder="es1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -113,8 +120,15 @@
      <elementSeq exposures="25" val="24" id="1"/>
      <elementSeq exposures="26" val="25" id="1"/>
      <elementSeq exposures="27" val="26" id="1"/>
+     <elementSeq exposures="28" val="27" id="1"/>
+     <elementSeq exposures="29" val="28" id="1"/>
+     <elementSeq exposures="30" val="29" id="1"/>
+     <elementSeq exposures="31" val="30" id="1"/>
+     <elementSeq exposures="32" val="31" id="1"/>
+     <elementSeq exposures="33" val="32" id="1"/>
+     <elementSeq exposures="34" val="33" id="1"/>
     </column>
-    <column type="0" name="ATV-0BB33CD2AE30167C" displayOrder="2" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-0BB33CD2AE30167C" display="false" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -337,6 +351,7 @@
      </module>
      <module type="READ" name="es1" pos="0,0,5" publishUnderTab="es1">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
