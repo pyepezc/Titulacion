@@ -49,6 +49,18 @@
     <dwg name="7"/>
     <dwg name="8"/>
     <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+   </drawings>
+  </element>
+  <element id="6" elementName="boton_cu" elementFolder="boton_cu" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
    </drawings>
   </element>
  </elements>
@@ -69,13 +81,13 @@
  <scenes>
   <scene name="Top" id="0bb3d39c8f700d9a" nbframes="41" startFrame="1" stopFrame="41">
    <columns>
-    <column type="0" name="fondo" display="false" displayOrder="5" width="100" anonymous="true" id="1">
+    <column type="0" name="fondo" displayOrder="6" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-41" val="3" id="1"/>
     </column>
     <column type="0" name="ATV-0BB3D39C8F701FF6" display="false" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-41" val="1" id="2"/>
     </column>
-    <column type="0" name="ATV-0BB3D39C8F703520" displayOrder="3" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-0BB3D39C8F703520" display="false" displayOrder="3" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-2" val="2" id="3"/>
      <elementSeq exposures="3-4" val="7" id="3"/>
      <elementSeq exposures="5-6" val="5" id="3"/>
@@ -96,7 +108,11 @@
      <elementSeq exposures="22-23" val="4" id="4"/>
      <elementSeq exposures="24-41" val="2" id="4"/>
     </column>
-    <column type="0" name="ATV-0BB3C1B079E01ADD" display="false" displayOrder="4" width="100" anonymous="true" id="5">
+    <column type="0" name="ATV-0BB3C1B079E01ADD" displayOrder="5" width="100" anonymous="true" id="5">
+     <elementSeq exposures="1-2" val="13" id="5"/>
+     <elementSeq exposures="3-4" val="12" id="5"/>
+     <elementSeq exposures="5-6" val="11" id="5"/>
+     <elementSeq exposures="7-8" val="10" id="5"/>
      <elementSeq exposures="9-10" val="9" id="5"/>
      <elementSeq exposures="11-12" val="8" id="5"/>
      <elementSeq exposures="13-14" val="7" id="5"/>
@@ -106,6 +122,12 @@
      <elementSeq exposures="20-21" val="3" id="5"/>
      <elementSeq exposures="22-23" val="2" id="5"/>
      <elementSeq exposures="24-41" val="1" id="5"/>
+    </column>
+    <column type="0" name="ATV-0BB3C1B079E7883F" displayOrder="4" width="100" anonymous="true" id="6">
+     <elementSeq exposures="1-19" val="1" id="6"/>
+     <elementSeq exposures="20-21" val="2" id="6"/>
+     <elementSeq exposures="22-23" val="3" id="6"/>
+     <elementSeq exposures="24-41" val="4" id="6"/>
     </column>
    </columns>
    <options>
@@ -177,7 +199,6 @@
      </module>
      <module type="READ" name="fondo" pos="-65,-50,9" publishUnderTab="Drawing">
       <options>
-       <disabled val="true"/>
        <locked val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
@@ -445,6 +466,7 @@
      </module>
      <module type="READ" name="mano" pos="0,0,2" publishUnderTab="mano">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
@@ -672,7 +694,7 @@
      </module>
      <module type="READ" name="mano_cu" pos="0,0,0" publishUnderTab="mano_cu">
       <options>
-       <disabled val="true"/>
+       <locked val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -783,16 +805,129 @@
        <tileVertical val="false"/>
       </attrs>
      </module>
+     <module type="READ" name="boton_cu" pos="0,0,0" publishUnderTab="boton_cu">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-0BB3C1B079E7883F">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <colorTransformation val="Linear"/>
+       <colorSpace/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+       <tileHorizontal val="false"/>
+       <tileVertical val="false"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
      <link out="fondo" in="Composite" inport="1"/>
      <link out="Colour-Card" in="Composite" inport="0"/>
-     <link out="telefono" in="Composite" inport="4"/>
-     <link out="mano" in="Composite" inport="3"/>
-     <link out="boton" in="Composite" inport="5"/>
+     <link out="telefono" in="Composite" inport="5"/>
+     <link out="mano" in="Composite" inport="4"/>
+     <link out="boton" in="Composite" inport="6"/>
      <link out="mano_cu" in="Composite" inport="2"/>
+     <link out="boton_cu" in="Composite" inport="3"/>
     </linkedlist>
    </rootgroup>
    <unconnectedComposite>

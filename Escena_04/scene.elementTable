@@ -5,4 +5,5 @@
  <element id="3" elementName="mano" elementFolder="mano" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="4" elementName="boton" elementFolder="boton" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="5" elementName="mano_cu" elementFolder="mano_cu" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="6" elementName="boton_cu" elementFolder="boton_cu" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
