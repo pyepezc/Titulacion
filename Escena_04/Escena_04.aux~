@@ -1,6 +1,6 @@
 <!DOCTYPE SceneVersion>
-<SceneVersion VersionName="Escena_04" Modified="2023-06-15 11:09:26" ID="1">
- <Element Name="Drawing" ID="1" Folder="Drawing">
+<SceneVersion VersionName="Escena_04" Modified="2023-06-15 14:15:02" ID="1">
+ <Element Name="fondo" ID="1" Folder="fondo">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
@@ -28,5 +28,13 @@
   <Drawing Key="Key" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
   <Drawing Key="" Name="4" Version="1"/>
+ </Element>
+ <Element Name="mano_cu" ID="5" Folder="mano_cu">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
  </Element>
 </SceneVersion>
